@@ -1,0 +1,153 @@
+header {
+    background-color: #182F79;
+    padding: 20px 0;
+    color: white;
+}
+
+.header-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 0 5%;
+}
+
+.logo h1 {
+    font-size: 1.8rem;
+    margin: 0;
+}
+
+.search-bar {
+    display: flex;
+    align-items: center;
+}
+
+.search-bar input {
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    width: 250px;
+    margin-right: 10px;
+}
+
+.search-bar button {
+    padding: 10px 20px;
+    background-color: #182F79;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+.search-bar button:hover {
+    background-color: #182F79;
+}
+
+.nav-links ul {
+    list-style: none;
+    display: flex;
+    gap: 20px;
+}
+
+.nav-links ul li {
+    margin: 0;
+}
+
+.nav-links ul li a {
+    color: white;
+    text-decoration: none;
+    font-size: 1rem;
+}
+
+.nav-links ul li a:hover {
+    text-decoration: underline;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: Arial, sans-serif;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+.content {
+    flex-grow: 1;
+}
+
+
+footer {
+    background-color: #182F79;
+    color: white;
+    padding: 40px;
+    text-align: left;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+}
+
+.footer-container {
+    display: flex;
+    justify-content: space-around;
+}
+
+.footer-section {
+    width: 25%;
+}
+
+.footer-section h3 {
+    margin-bottom: 15px;
+    font-size: 1.2rem;
+}
+
+.footer-section p, .footer-section ul, .footer-section input, .footer-section button {
+    margin-bottom: 10px;
+}
+
+ul {
+    list-style: none;
+}
+
+ul li {
+    margin-bottom: 5px;
+}
+
+.footer-section a {
+    color: white;
+    text-decoration: none;
+}
+
+.footer-section a:hover {
+    text-decoration: underline;
+}
+
+.social-icons a {
+    margin-right: 10px;
+    font-size: 1.5rem;
+}
+
+input {
+    padding: 10px;
+    width: 80%;
+    margin-bottom: 10px;
+    border: none;
+    border-radius: 5px;
+}
+
+button {
+    padding: 10px 15px;
+    background-color: #ff9000;
+    border: none;
+    border-radius: 5px;
+    color: white;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #ff7c00;
+}
